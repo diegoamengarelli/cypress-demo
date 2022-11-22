@@ -29,7 +29,7 @@ pipeline{
 
     post{
         always{
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'mochawesome-report', reportFiles: 'mochawesome.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'mochawesome-report/mochawesome.html', reportFiles: 'mochawesome.html', reportName: 'HTML Report', reportTitles: 'test 1', useWrapperFileDirectly: true])
         }
     }
 }
